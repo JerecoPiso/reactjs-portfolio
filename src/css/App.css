@@ -1,0 +1,145 @@
+/* A */
+.about-me{
+    background: #394867;
+    min-height: 40px;
+    padding: 2em 1em;
+  }
+  .about-me-content{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+  }
+  .about-me-content .image-dp{
+    flex: 1;
+    margin: 0 1em 0 1em;
+  
+    
+    box-sizing: border-box;
+  }
+  .about-me-content .image-dp img{
+    width: 100%;
+    height: 350px;
+    border-radius: 0.3em;
+    
+  }
+  .about-me-content .about-content{
+    flex: 1.5;
+    margin: 0 1em 0 1em;
+  
+    padding: 1em;
+    box-sizing: border-box;
+  }
+  .about-content p{
+    color: #F1F6F9;
+    margin-top: 0;
+  }
+  /* C */
+  .content-title{
+    border-top: 3px solid #F1F6F9;
+    width: 150px;
+    padding-top: 0.2em;
+    margin: 0 0 0 1.3em;
+    color: #F1F6F9;
+    font-size: 1.5em;
+    line-height: 36px;
+  }
+  /* G */
+  .get-in-touch{
+    padding: 0.5em 2em 0.5em 2em;
+    border: none;
+    border-radius: 0.1em;
+    font-size: 1.1em;
+    color: #14274E;
+  }
+  /* H */
+  .hello{
+    font-size: 2em;
+    margin-bottom: 0;
+    color: #9BA4B4;
+  }
+  /* L */
+  .links{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1em;
+  }
+  .links li{
+    list-style-type: none;
+  }
+  .links li a{
+    text-decoration: none;
+    color: #F1F6F9;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    padding: 0.2em 1em  0.2em 1em;
+  }
+  .links li:hover a{
+    background-color: #F1F6F9;
+    color: #14274E;
+    border-radius: 2em;
+  }
+  /* M */
+  .main-display{
+    display: flex;
+    flex-direction: row;
+    padding: 2em 1em;
+  }
+  .main-display div{
+    flex: 1;
+    margin: 1em;
+    padding: 3em 1em 1em 1em;
+  }
+  .main-dp img{
+    position: absolute;
+    bottom: 0;
+    height: 80%;
+  }
+  /* N */
+  .name{
+    font-size: 2.5em;
+    color: #F1F6F9;
+    margin-top: 0.1em;
+    margin-bottom: 0;
+  }
+  .name span{
+    color: #9BA4B4;
+  }
+  /* P */
+  .profile{
+    background: #14274E;
+    height: 80vh;
+  }
+  /* S */
+  .services{
+    min-height: 500px;
+    background: #14274E;
+    padding: 2em 1em;
+  }
+  .services-content{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+  }
+  .services-type{
+    flex: 1;
+    background: #F1F6F9;
+    margin: 0 1em 0 1em;
+    box-sizing: border-box;
+    border-radius: 0.2em;
+    padding: 1em;
+  }
+  .skill-offered{
+    font-size: 1.5em;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 100;
+    color: #9BA4B4;
+  }
+  .slogan{
+    margin-top: 0.5em;
+    font-weight: 300;
+    color: #9BA4B4;
+    line-height: 30px;
+    font-size: 1.5em;
+    font-style: normal;
+  }
