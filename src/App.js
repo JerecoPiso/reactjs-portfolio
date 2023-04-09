@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
 import './css/App.css';
-
+import './css/Responsive.css';
 function App() {
   return (
     <div className='app'>

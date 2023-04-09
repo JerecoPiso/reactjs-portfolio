@@ -6,24 +6,21 @@
   }
   .about-me-content{
     display: flex;
-    flex-direction: row;
     padding: 1em;
   }
   .about-me-content .image-dp{
     flex: 1;
     margin: 0 1em 0 1em;
-  
-    
     box-sizing: border-box;
   }
   .about-me-content .image-dp img{
     width: 100%;
-    height: 350px;
+    height: 370px;
     border-radius: 0.3em;
     
   }
   .about-me-content .about-content{
-    flex: 1.5;
+    flex: 1;
     margin: 0 1em 0 1em;
   
     padding: 1em;
@@ -76,18 +73,15 @@
   .links li:hover a{
     background-color: #F1F6F9;
     color: #14274E;
-    border-radius: 2em;
+    border-radius: 0.1em;
   }
   /* M */
   .main-display{
-    display: flex;
-    flex-direction: row;
     padding: 2em 1em;
   }
   .main-display div{
     flex: 1;
-    margin: 1em;
-    padding: 3em 1em 1em 1em;
+    
   }
   .main-dp img{
     position: absolute;
@@ -117,13 +111,14 @@
   }
   .services-content{
     display: flex;
-    flex-direction: row;
+   
     padding: 1em;
   }
   .services-type{
     flex: 1;
+   
     background: #F1F6F9;
-    margin: 0 1em 0 1em;
+    margin: 0.5em 1em 0 1em;
     box-sizing: border-box;
     border-radius: 0.2em;
     padding: 1em;
