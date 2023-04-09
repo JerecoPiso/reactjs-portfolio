@@ -9,7 +9,7 @@
     padding: 1em;
   }
   .about-me-content .image-dp{
-    flex: 1;
+    flex: 0.8;
     margin: 0 1em 0 1em;
     box-sizing: border-box;
   }
@@ -23,7 +23,7 @@
     flex: 1;
     margin: 0 1em 0 1em;
   
-    padding: 1em;
+    /* padding: 1em; */
     box-sizing: border-box;
   }
   .about-content p{
