@@ -1,8 +1,7 @@
 import './css/App.css';
 import './css/Responsive.css';
 import * as solidIcons from '@fortawesome/free-solid-svg-icons';
-// import * as brandIcons from '@fortawesome/free-brands-svg-icons';
-
+import * as brandIcons from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function App() {
   return (
@@ -55,17 +54,20 @@ function App() {
             <div className='services-content'>
               <div className='services-type'>
                   <div style={{ textAlign: 'center' }}>
-                        <FontAwesomeIcon icon={solidIcons.faLaptop} size="4x" color='#394867' />
+                      <FontAwesomeIcon icon={solidIcons.faLaptop} size="4x" color='#394867' />
+                      <p>Web Application</p>
                   </div>
               </div>
               <div className='services-type'> 
                   <div style={{ textAlign: 'center' }}>
-                          <FontAwesomeIcon icon={solidIcons.faMobileAndroid} size="4x" color='#394867' />
+                      <FontAwesomeIcon icon={brandIcons.faAndroid} size="4x" color='#394867' />
+                      <p>Android Application</p>
                   </div>
               </div>
               <div className='services-type'>
                   <div style={{ textAlign: 'center' }}>
-                          <FontAwesomeIcon icon={solidIcons.faDesktop} size="4x" color='#394867' />
+                      <FontAwesomeIcon icon={solidIcons.faDesktop} size="4x" color='#394867' />
+                      <p>Desktop Application</p>
                   </div>
               </div>
             </div>

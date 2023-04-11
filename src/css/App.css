@@ -1,7 +1,7 @@
 /* A */
 .about-me{
     background: #394867;
-    min-height: 40px;
+    height: auto;
     padding: 2em 1em;
   }
   .about-me-content{
@@ -9,26 +9,21 @@
     padding: 1em;
   }
   .about-me-content .image-dp{
-    flex: 0.8;
     margin: 0 1em 0 1em;
     box-sizing: border-box;
   }
   .about-me-content .image-dp img{
-    width: 100%;
-    height: 370px;
+    width: 300px;
+    height: 300px;
     border-radius: 0.3em;
-    
   }
   .about-me-content .about-content{
-    flex: 1;
     margin: 0 1em 0 1em;
-  
-    /* padding: 1em; */
     box-sizing: border-box;
   }
   .about-content p{
     color: #F1F6F9;
-    margin-top: 0;
+    vertical-align: middle;
   }
   /* C */
   .content-title{
@@ -105,7 +100,7 @@
   }
   /* S */
   .services{
-    min-height: 500px;
+    height: auto;
     background: #14274E;
     padding: 2em 1em;
   }
@@ -122,6 +117,12 @@
     box-sizing: border-box;
     border-radius: 0.2em;
     padding: 1em;
+  }
+  .services-type div p{
+    font-weight: 600;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: #14274E;
   }
   .skill-offered{
     font-size: 1.5em;
