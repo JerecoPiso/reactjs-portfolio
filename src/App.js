@@ -8,15 +8,22 @@ function App() {
     <div className='app'>
       
         <div className='profile'>
-          <div className='links'>
-              <li><a href='/'>Blog</a></li>
-              <li><a href='/'>Skills</a></li>
-              <li><a href='/'>Portfolio</a></li>
-              <li><a href='/'>Home</a></li>
+          <div className='header'>
+            <div>
+              <p id='logo'>codeX</p>
+            </div>
+            <div className='links'>
+                <li><a href='/'>Blog</a></li>
+                <li><a href='/'>Skills</a></li>
+                <li><a href='/'>Portfolio</a></li>
+                <li><a href='/'>Home</a></li>
+            </div>
           </div>
+         
           {/* end class links */}
           <div className='main-display'>
               <div className='intro-message'>
+              
                 <p className='hello'>Hello,</p>
                 <p className='name'> <span>I'm</span>  Jereco James Piso</p>
                 {/* <p className='skill-offered'>Freelance Programmer</p> */}
@@ -36,6 +43,7 @@ function App() {
                 <img src='./john-doe.png' alt='' className=''/>
               </div>
               <div className='about-content'>
+                
                   <p>
                     Hey, I'm Jereco James Piso an intermediate-level web developer with a passion for creating functional and visually appealing websites. I have a few years of experience in web development, which has allowed me to hone my skills and tackle more complex projects.
                     <br/><br/>

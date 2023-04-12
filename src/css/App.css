@@ -44,6 +44,18 @@
     color: #14274E;
   }
   /* H */
+  .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 0;
+  }
+  .header div #logo{
+    vertical-align: middle;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1em;
+  }
   .hello{
     font-size: 2em;
     margin-bottom: 0;
@@ -69,6 +81,19 @@
     background-color: #F1F6F9;
     color: #14274E;
     border-radius: 0.1em;
+  }
+  #logo{
+    width: 188px;
+    height: 68px;
+    font-weight: bolder;
+    font-size: 3em;
+  
+    line-height: 68px;
+    text-shadow: -3px 3px 0 #F1F6F9,
+    1px 1px 0 #F1F6F9,
+    1px -1px 0 #F1F6F9,
+    -1px -1px 0 #F1F6F9;
+    color: #394867;
   }
   /* M */
   .main-display{
@@ -127,6 +152,7 @@
     font-weight: 600;
     font-size: 1.2em;
     letter-spacing: 1px;
+    text-transform: uppercase;
     color: #14274E;
   }
   .skill-offered{
