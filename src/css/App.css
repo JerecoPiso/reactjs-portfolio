@@ -109,6 +109,11 @@
    
     padding: 1em;
   }
+  .service-desc{
+    font-size: 0.8em;
+    text-align: center;
+    color: #394867;
+  }
   .services-type{
     flex: 1;
    
@@ -118,7 +123,7 @@
     border-radius: 0.2em;
     padding: 1em;
   }
-  .services-type div p{
+  .services-type div p:not(.service-desc){
     font-weight: 600;
     font-size: 1.2em;
     letter-spacing: 1px;
