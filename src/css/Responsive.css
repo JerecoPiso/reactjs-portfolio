@@ -3,6 +3,12 @@
         flex-direction: column;
        
     }
+    .bars{
+        display: block;
+    }
+    .links li{
+        display: none;
+    }
     .main-display{
         display: flex;
         flex-direction: column;
@@ -15,11 +21,17 @@
       
         flex-direction: column;
    
-      }
+    }
 }
 @media only screen and (min-width: 576px) {
     .about-me-content{
         flex-direction: column;
+    }
+    .bars{
+        display: block;
+    }
+    .links li{
+        display: none;
     }
     .main-display{
         display: flex;
@@ -37,6 +49,12 @@
     .about-me-content{
         flex-direction: row;
     }
+    .bars{
+        display: block;
+    }
+    .links li{
+        display: none;
+    }
     .main-display{
         display: flex;
         flex-direction: column;
@@ -52,6 +70,12 @@
 @media only screen and (min-width: 992px) {
     .about-me-content{
         flex-direction: row;
+    }
+    .bars{
+        display: none;
+    }
+    .links li{
+        display: block;
     }
     .main-display{
         display: flex;
@@ -69,6 +93,12 @@
     .about-me-content{
         flex-direction: row;
     }
+    .bars{
+        display: none;
+    }
+    .links li{
+        display: block;
+    }
     .main-display{
         display: flex;
         flex-direction: row;
@@ -84,6 +114,12 @@
 @media only screen and (min-width: 1400px) {
     .about-me-content{
         flex-direction: row;
+    }
+    .bars{
+        display: none;
+    }
+    .links li{
+        display: block;
     }
     .main-display{
         display: flex;
