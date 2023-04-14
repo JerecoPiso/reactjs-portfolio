@@ -2,6 +2,7 @@ import './css/App.css';
 import './css/Responsive.css';
 import AboutMe from './links/AboutMe';
 import Services from './links/Services';
+import Portfolio from './links/Portfolio';
 import * as solidIcons from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function App() {
@@ -41,6 +42,7 @@ function App() {
         {/* end class profile  */}
         <AboutMe/>
         <Services/>
+        <Portfolio/>
     </div>
     // end class app
   );

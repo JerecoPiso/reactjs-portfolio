@@ -17,7 +17,7 @@
         margin: 1em;
         padding: 0 1em 1em 1em;
     }
-    .services-content{
+    .services-content, .projects{
       
         flex-direction: column;
    
@@ -41,7 +41,7 @@
         margin: 1em;
         padding: 0 1em 1em 1em;
     }
-    .services-content{
+    .services-content, .projects{
         flex-direction: column;
     }
 }
@@ -63,7 +63,7 @@
         margin: 1em;
         padding: 0 1em 1em 1em;
     }
-    .services-content{
+    .services-content, .projects{
         flex-direction: column;
     }
 }
@@ -85,7 +85,7 @@
         margin: 1em;
         padding: 0 1em 1em 1em;
     }
-    .services-content{
+    .services-content, .projects{
         flex-direction: row;
     }
 }
@@ -107,7 +107,7 @@
         margin: 1em;
         padding: 3em 1em 1em 1em;
     }
-    .services-content{
+    .services-content, .projects{
         flex-direction: row;
     }
 }
@@ -129,7 +129,7 @@
         margin: 1em;
         padding: 3em 1em 1em 1em;
     }
-    .services-content{
+    .services-content, .projects{
         flex-direction: row;
     }
 }

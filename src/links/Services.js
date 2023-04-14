@@ -34,6 +34,23 @@ function Services() {
                     </div>
                 </div>
             </div>
+
+            <div className='skills'>
+                <p className='skills-title'>SKILLS</p>
+                <div className='my-skills'>
+                    <div><FontAwesomeIcon icon={brandIcons.faVuejs} size="4x" color='#F1F6F9' /></div>
+                    <div><FontAwesomeIcon icon={brandIcons.faLaravel} size="4x" color='#F1F6F9' /></div>
+                    <div><FontAwesomeIcon icon={brandIcons.faNode} size="4x" color='#F1F6F9' /></div>
+                    <div><FontAwesomeIcon icon={brandIcons.faReact} size="4x" color='#F1F6F9' /></div>
+                    <div><FontAwesomeIcon icon={brandIcons.faPhp} size="4x" color='#F1F6F9' /></div>
+                    <div><FontAwesomeIcon icon={brandIcons.faJava} size="4x" color='#F1F6F9' /></div>
+                    <div><FontAwesomeIcon icon={brandIcons.faBootstrap} size="4x" color='#F1F6F9' /></div>
+                    <div><FontAwesomeIcon icon={brandIcons.faCss3} size="4x" color='#F1F6F9' /></div>
+                    <div><FontAwesomeIcon icon={brandIcons.faJs} size="4x" color='#F1F6F9' /></div>
+                    <div><FontAwesomeIcon icon={brandIcons.faPython} size="4x" color='#F1F6F9' /></div>
+                    
+                </div>
+            </div>
         </div>
 
         // end class app
