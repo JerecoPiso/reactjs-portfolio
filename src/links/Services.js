@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Services() {
     return (
         <div className='services'>
-            <p className='content-title'>SERVICES</p>
+            <p className='content-title'>SKILLS</p>
             <div className='services-content'>
                 <div className='services-type'>
                     <div style={{ textAlign: 'center' }}>
@@ -36,7 +36,7 @@ function Services() {
             </div>
 
             <div className='skills'>
-                <p className='skills-title'>SKILLS</p>
+                {/* <p className='skills-title'>SKILLS</p> */}
                 <div className='my-skills'>
                     <div><FontAwesomeIcon icon={brandIcons.faVuejs} size="4x" color='#F1F6F9' /></div>
                     <div><FontAwesomeIcon icon={brandIcons.faLaravel} size="4x" color='#F1F6F9' /></div>

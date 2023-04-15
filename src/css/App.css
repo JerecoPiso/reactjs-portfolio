@@ -1,319 +1,411 @@
 /* A */
-.about-me{
-    background: #394867;
-    height: auto;
-    padding: 4em 1em 4em;
-  }
-  .about-me-content{
-    display: flex;
-    padding: 1em;
-  }
-  .about-me-content .image-dp{
-    margin: 0 1em 0 1em;
-    box-sizing: border-box;
-  }
-  .about-me-content .image-dp img{
-    width: 300px;
-    height: 300px;
-    border-radius: 0.3em;
-  }
-  .about-me-content .about-content{
-    margin: 0 1em 0 1em;
-    box-sizing: border-box;
-  }
-  .about-content p{
-    color: #F1F6F9;
-    vertical-align: middle;
-  }
-  /* B */
-  .bars{
-    background: transparent;
-    border: none;
-  }
-  /* C */
-  .contact{
-    height: auto;
-    background: #14274E;
-    padding: 2em 1em 4em;
-  }
-  .contact-section{
-    display: flex;
+.about-me {
+  background: #394867;
+  height: auto;
+  padding: 4em 1em 4em;
+}
+
+.about-me-content {
+  display: flex;
+  padding: 1em;
+}
+
+.about-me-content .image-dp {
+  margin: 0 1em 0 1em;
+  box-sizing: border-box;
+}
+
+.about-me-content .image-dp img {
+  width: 300px;
+  height: 300px;
+  border-radius: 0.3em;
+}
+
+.about-me-content .about-content {
+  margin: 0 1em 0 1em;
+  box-sizing: border-box;
+}
+
+.about-content p {
+  color: #F1F6F9;
+  vertical-align: middle;
+}
+
+/* B */
+.bars {
+  background: transparent;
+  border: none;
+}
+
+/* C */
+.contact {
+  height: auto;
+  background: #394867;
+  padding: 2em 1em 4em;
+}
+
+/* .contact-section{
+    border: 1px solid red;
+    display: flex; align-items: center; justify-content: center;
     padding: 1em;
     margin: 0.5em 1em 0 1em;
-  }
-  .contact-section div{
-    flex: 1;
-  }
-  .content-title{
-    border-top: 3px solid #F1F6F9;
-    width: 200px;
-    padding-top: 0.2em;
-    margin: 0 0 0 1em;
-    color: #F1F6F9;
-    font-size: 2em;
-    line-height: 36px;
-  }
-  form{
-    display: flex;
-    flex-direction: column;
-  }
-  /* G */
-  .get-in-touch{
-    padding: 0.5em 2em 0.5em 2em;
-    border: none;
-    border-radius: 0.1em;
-    font-size: 1.1em;
-    color: #14274E;
-  }
-  /* H */
-  .header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-bottom: 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: #14274E;
-   
-  }
-  .header div{
-    flex: 1;
-   
-  }
-  .header div #logo{
-    vertical-align: middle;
-    margin-top: 0;
-    margin-bottom: 0.1em;
-    margin-left: 1.2em;
-    width: auto;
-    height: 68px;
-    /* font-weight: 800; */
-    font-size: 2em;
-    background: #14274E;
-    padding: 0 0.6em 0 0.4em;
-    border-radius: 0.1em;
-    line-height: 68px;
-    /* text-shadow: -1px 1px 0 #F1F6F9,
+    width: 500px;
+
+  } */
+.contact-section-title{
+  color: #F1F6F9;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 2.2em;
+  border-top: 3px solid #F1F6F9;
+  width: 200px;
+  margin: 0 auto 1.5em;
+  display: block;
+}
+.content-title {
+  border-top: 3px solid #F1F6F9;
+  width: 200px;
+  padding-top: 0.2em;
+  /* margin: 0 0 0.5em 1em; */
+  margin: auto auto 1em auto;
+  text-align: center;
+  display: block;
+  color: #F1F6F9;
+  font-size: 2em;
+  line-height: 36px;
+}
+.copyright{
+  text-align: center;
+  font-size: 0.8em;
+  color: #F1F6F9;
+}
+.footer{
+  height: auto;
+  background: #14274E;
+  padding: 2em 3em 1em 3em;
+}
+form {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em 0 2em;
+  margin: auto;
+}
+
+/* G */
+.get-in-touch {
+  padding: 0.5em 2em 0.5em 2em;
+  border: none;
+  border-radius: 0.1em;
+  font-size: 1.1em;
+  color: #14274E;
+}
+
+/* H */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #14274E;
+  z-index: 2;
+}
+
+.header div {
+  flex: 1;
+
+}
+
+.header div #logo {
+  vertical-align: middle;
+  margin-top: 0;
+  margin-bottom: 0.1em;
+  margin-left: 1.2em;
+  width: auto;
+  height: 68px;
+  /* font-weight: 800; */
+  font-size: 2em;
+  background: #14274E;
+  padding: 0 0.6em 0 0.4em;
+  border-radius: 0.1em;
+  line-height: 68px;
+  /* text-shadow: -1px 1px 0 #F1F6F9,
     1px 1px 0 #F1F6F9,
     1px -1px 0 #F1F6F9,
     -1px -1px 0 #F1F6F9;  */
-    color: #F1F6F9;
-    
-  }
-  .hello{
-    font-size: 2em;
-    margin-bottom: 0;
-    color: #9BA4B4;
-  }
-  /* L */
-  label{
-    font-size: 1.1em;
-    width: 100%;
-    color: #F1F6F9;
-  }
-  .links{
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 1em;
-  }
-  .links li{
-    list-style-type: none;
-  }
-  .links li a{
-    text-decoration: none;
-    color: #F1F6F9;
-    font-size: 1.3em;
-    text-transform: uppercase;
-    padding: 0.2em 1em  0.2em 1em;
-  }
-  .links li:hover a{
-    background-color: #F1F6F9;
-    color: #14274E;
-    border-radius: 0.1em;
-  }
-  input{
-    height: 40px;
-  }
-  input, textarea{
-    /* width: 80%; */
-    margin-top: 0.5em;
-    background: transparent;
-    outline: none;
-    color: #F1F6F9;
-    padding-left: 0.5em;
-    border: 1px solid #9BA4B4;
-    margin-bottom: 0.5em;
-    border-radius: 0.2em;
-  }
-  textarea{
-    height: 150px;
-    resize: none;
-  }
-  input::placeholder{
-    color: #9BA4B4;
-    font-size: 0.8em;
-  }
-  /* M */
-  .main-display{
-    padding: 5em 1em;
-  
-  }
-  .main-display div{
-    flex: 1;
-    
-  }
-  .main-dp img{
-    position: absolute;
-    bottom: 0;
-    height: 80%;
-  }
-  .my-skills{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-  }
-  .mt-0{
-    margin-top: 0;
-  }
-  /* N */
-  .name{
-    font-size: 2.5em;
-    color: #F1F6F9;
-    margin-top: 0.1em;
-    margin-bottom: 0;
-  }
-  .name span{
-    color: #9BA4B4;
-  }
-  /* P */
-  .portfolio{
-    height: auto;
-    background: #14274E;
-    padding: 4em 1em 4em;
-  }
-  .projects{
-    display: flex;
-    padding: 0 1.9em 0 1.9em;
-    flex-wrap: wrap;
-  }
-  .projects div{
-    flex: 1;
-    background: #F1F6F9;
-    box-sizing: border-box;
-    position: relative;
-  }
-  .projects div div{
-    overflow: hidden;
-    position: relative;
-    height: 100%;
-    max-height: 280px;
-  }
-  .projects div img{
-    width: 100%;
-    height: 100%;
-    position: relative;
-  }
-  .projects div img:hover{
-    transform: scale(1.1);
-    transition: 1s;
-  }
-  .projects div .project-name{
-    display: none;
-  }
-  .projects div:hover .project-name{
-    display: block;
-    position: absolute;
-    padding-top: 25%;
-    height: 100%;
-    top: 0;
-    text-align: center;
-    margin-top: 0;
-    color: #F1F6F9;
-    font-size: 1.3em;
-    width: 100%;
-    left: 0;
+  color: #F1F6F9;
 
-    background-color: rgba(0,0,0,0.8);
-  }
-  .projects div:hover img{
-    transform: scale(1.1);
-    transition: 1s;
-  }
-  .profile{
-    background: #14274E;
-    height: 80vh;
-  }
-  /* S */
-  .send{
-    width: 10em;
-    margin-left: auto;
-    font-size: 1.1em;
-    padding: 0.3em 0 0.3em;
-    border-radius: 0.1em;
-    color: #9BA4B4;
-    border: 1px solid #9BA4B4;
-    background-color: transparent;
+}
 
-  }
-  .services{
-    height: auto;
-    background: #14274E;
-    padding: 4em 1em 4em;
-  }
-  .services-content{
-    display: flex;
-    padding: 1em;
-  }
-  .service-desc{
-    font-size: 0.8em;
-    text-align: center;
-    color: #394867;
-  }
-  .services-type{
-    flex: 1;
-   
-    background: #F1F6F9;
-    margin: 0.5em 1em 0 1em;
-    box-sizing: border-box;
-    border-radius: 0.2em;
-    padding: 1em;
-  }
-  .services-type div p:not(.service-desc){
-    font-weight: 600;
-    font-size: 1.2em;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #14274E;
-  }
-  .skill-offered{
-    font-size: 1.5em;
-    margin-bottom: 0;
-    margin-top: 0;
-    font-weight: 100;
-    color: #9BA4B4;
-  }
-  .skills{
-    margin: 4em 5em 0 5em;
-  }
-  .skills-title{
-    color: #F1F6F9;
-    letter-spacing: 1px;
-    text-align: center;
-    font-family: "Poppins";
-    font-size: 2.2em;
-    border-top: 3px solid #F1F6F9;
-    width: 150px;
-    margin: 1em auto;
-    display: block;
-  }
-  .slogan{
-    margin-top: 0.5em;
-    font-weight: 300;
-    color: #9BA4B4;
-    line-height: 30px;
-    font-size: 1.5em;
-    font-style: normal;
-  }
+.hello {
+  font-size: 2em;
+  margin-bottom: 0;
+  color: #9BA4B4;
+}
+
+/* L */
+label {
+  font-size: 1.1em;
+  width: 100%;
+  color: #F1F6F9;
+}
+
+.links {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 1em;
+}
+
+.links li {
+  list-style-type: none;
+}
+
+.links li a {
+  text-decoration: none;
+  color: #F1F6F9;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  padding: 0.2em 1em 0.2em 1em;
+}
+
+.links li:hover a {
+  background-color: #F1F6F9;
+  color: #14274E;
+  border-radius: 0.1em;
+}
+
+input {
+  height: 40px;
+}
+
+input,
+textarea {
+  /* width: 80%; */
+  margin-top: 0.5em;
+  background: transparent;
+  outline: none;
+  color: #F1F6F9;
+  padding-left: 0.5em;
+  border: 1px solid #9BA4B4;
+  margin-bottom: 0.5em;
+  border-radius: 0.2em;
+}
+
+
+input::placeholder, textarea::placeholder {
+  color: #9BA4B4;
+  font-size: 0.8em;
+}
+
+/* M */
+.main-display {
+  padding: 5em 1em;
+
+}
+
+.main-display div {
+  flex: 1;
+
+}
+
+.main-dp img {
+  position: absolute;
+  bottom: 0;
+  height: 80%;
+}
+
+.my-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+/* N */
+.name {
+  font-size: 2.5em;
+  color: #F1F6F9;
+  margin-top: 0.1em;
+  margin-bottom: 0;
+}
+.name-footer{
+  font-size: 1.7em;
+  color: #F1F6F9;
+  margin-top: 0.1em;
+  margin-bottom: 0;
+}
+.name span {
+  color: #9BA4B4;
+}
+
+/* P */
+.portfolio {
+  height: auto;
+  background: #14274E;
+  padding: 4em 1em 4em;
+}
+
+.projects {
+  display: flex;
+  padding: 0 1.9em 0 1.9em;
+  flex-wrap: wrap;
+}
+
+.projects div {
+  flex: 1;
+  background: #F1F6F9;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.projects div div {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  max-height: 280px;
+}
+
+.projects div img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.projects div img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.projects div .project-name {
+  display: none;
+}
+
+.projects div:hover .project-name {
+  display: block;
+  position: absolute;
+  padding-top: 25%;
+  height: 100%;
+  top: 0;
+  text-align: center;
+  margin-top: 0;
+  color: #F1F6F9;
+  font-size: 1.3em;
+  width: 100%;
+  left: 0;
+
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.projects div:hover img {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.profile {
+  background: #14274E;
+  height: 80vh;
+}
+
+/* S */
+.send {
+  width: 10em;
+  margin-left: auto;
+  font-size: 1.1em;
+  padding: 0.7em 0 0.7em;
+  border-radius: 0.1em;
+  color: #9BA4B4;
+  border: 1px solid #9BA4B4;
+  background-color: transparent;
+  margin-top: 1em;
+}
+.send:hover{
+  background: #F1F6F9;
+  color: #14274E;
+  transition: 1s;
+}
+
+
+
+.services {
+  height: auto;
+  background: #14274E;
+  padding: 4em 1em 4em;
+}
+
+.services-content {
+  display: flex;
+  padding: 1em;
+}
+
+.service-desc {
+  font-size: 0.8em;
+  text-align: center;
+  color: #394867;
+}
+
+.services-type {
+  flex: 1;
+
+  background: #F1F6F9;
+  margin: 0.5em 1em 0 1em;
+  box-sizing: border-box;
+  border-radius: 0.2em;
+  padding: 1em;
+}
+
+.services-type div p:not(.service-desc) {
+  font-weight: 600;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #14274E;
+}
+.socials{
+  margin-top: 4em;
+}
+.skill-offered {
+  font-size: 1.5em;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 100;
+  color: #9BA4B4;
+}
+
+.skills {
+  margin: 4em 5em 0 5em;
+}
+
+.skills-title {
+  color: #F1F6F9;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 2.2em;
+  border-top: 3px solid #F1F6F9;
+  width: 150px;
+  margin: 1em auto;
+  display: block;
+}
+
+.slogan {
+  margin-top: 0.5em;
+  font-weight: 300;
+  color: #9BA4B4;
+  line-height: 30px;
+  font-size: 1.5em;
+  font-style: normal;
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+}

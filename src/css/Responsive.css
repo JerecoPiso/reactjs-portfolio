@@ -6,6 +6,9 @@
     .bars{
         display: block;
     }
+    form{
+        width: 100%;
+    }
     .links li{
         display: none;
     }
@@ -30,6 +33,9 @@
     .bars{
         display: block;
     }
+    form{
+        width: 100%;
+    }
     .links li{
         display: none;
     }
@@ -51,6 +57,9 @@
     }
     .bars{
         display: block;
+    }
+    form{
+        width: 100%;
     }
     .links li{
         display: none;
@@ -74,6 +83,9 @@
     .bars{
         display: none;
     }
+    form{
+        width: 80%;
+    }
     .links li{
         display: block;
     }
@@ -96,6 +108,9 @@
     .bars{
         display: none;
     }
+    form{
+        width: 60%;
+    }
     .links li{
         display: block;
     }
@@ -117,6 +132,9 @@
     }
     .bars{
         display: none;
+    }
+    form{
+        width: 60%;
     }
     .links li{
         display: block;
