@@ -1,11 +1,14 @@
+// import { useRef } from 'react';
 import './css/App.css';
 import './css/Responsive.css';
 import AboutMe from './links/AboutMe';
 import Services from './links/Services';
 import Portfolio from './links/Portfolio';
+import Contact from './links/Contact';
 import * as solidIcons from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function App() {
+
   return (
     <div className='app'>
       
@@ -18,7 +21,7 @@ function App() {
                 <li><a href='/'>About</a></li>
                 <li><a href='/'>Blog</a></li>
                 <li><a href='/'>Skills</a></li>
-                <li><a href='/'>Portfolio</a></li>
+                <li><a href='/' >Portfolio</a></li>
                
                 <button className='bars'> <FontAwesomeIcon icon={solidIcons.faBars} size="2x" color='#F1F6F9' /></button>
             </div>
@@ -43,6 +46,7 @@ function App() {
         <AboutMe/>
         <Services/>
         <Portfolio/>
+        <Contact/>
     </div>
     // end class app
   );
