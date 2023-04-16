@@ -5,6 +5,7 @@ function Contact() {
     return (
         <div className='contact'>
             <p className='contact-section-title'>CONTACT</p>
+            
             <form>
                 <label>Your Name</label>
                 <input type='text' placeholder='Enter your name' required />

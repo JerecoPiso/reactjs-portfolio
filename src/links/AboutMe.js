@@ -9,11 +9,11 @@ function AboutMe() {
                 <img src='./john-doe.png' alt='' className=''/>
               </div>
               <div className='about-content'>
-                
+                  
                   <p>
-                    Hey, I'm Jereco James Piso an intermediate-level web developer with a passion for creating functional and visually appealing websites. I have a few years of experience in web development, which has allowed me to hone my skills and tackle more complex projects.
+                    Hey, I'm Jereco James Piso an intermediate-level programmer with a passion for creating functional and visually appealing applications. I have a few years of experience in programming, which has allowed me to hone my skills and tackle more complex projects.
                     <br/><br/>
-                    I'm proficient in HTML, CSS, and JavaScript, and have experience with various front-end frameworks such as React and Vue.js. On the back-end, I've worked with Node.js, PHP, Django, and SQL databases. I enjoy working with both front-end and back-end technologies, and I'm always eager to learn new ones.
+                    In web i'm proficient in HTML, CSS, and JavaScript, and have experience with various front-end frameworks such as React and Vue.js. On the back-end, I've worked with Node.js, PHP, Django, and SQL databases. I'll using C# and Java for desktop application development, while opting for React Native to develop Android applications. and I'm always eager to learn new ones.
                     <br/><br/>
                     When I'm not coding, I enjoy exploring new technologies and reading about the latest trends in web development.
                     If you're looking for a skilled and dedicated web developer to help bring your ideas to life, feel free to get in touch with me. I'd love to discuss your project and how I can help you achieve your goals.

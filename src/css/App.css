@@ -372,6 +372,10 @@ input::placeholder, textarea::placeholder {
 .socials{
   margin-top: 4em;
 }
+.socials-footer{
+  margin-top: 0;
+  margin-bottom: 2em;
+}
 .skill-offered {
   font-size: 1.5em;
   margin-bottom: 0;

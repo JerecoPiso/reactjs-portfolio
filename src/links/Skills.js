@@ -3,7 +3,7 @@ import '../css/Responsive.css';
 import * as solidIcons from '@fortawesome/free-solid-svg-icons';
 import * as brandIcons from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-function Services() {
+function Skills() {
     return (
         <div className='services'>
             <p className='content-title'>SKILLS</p>
@@ -48,7 +48,7 @@ function Services() {
                     <div><FontAwesomeIcon icon={brandIcons.faCss3} size="4x" color='#F1F6F9' /></div>
                     <div><FontAwesomeIcon icon={brandIcons.faJs} size="4x" color='#F1F6F9' /></div>
                     <div><FontAwesomeIcon icon={brandIcons.faPython} size="4x" color='#F1F6F9' /></div>
-                    
+                  
                 </div>
             </div>
         </div>
@@ -57,4 +57,4 @@ function Services() {
     );
 }
 
-export default Services;
+export default Skills;

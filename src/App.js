@@ -2,7 +2,7 @@
 import './css/App.css';
 import './css/Responsive.css';
 import AboutMe from './links/AboutMe';
-import Services from './links/Services';
+import Skills from './links/Skills';
 import Portfolio from './links/Portfolio';
 import Contact from './links/Contact';
 import Profile from './links/Profile';
@@ -13,7 +13,7 @@ function App() {
     <div className='app'>
         <Profile/>
         <AboutMe/>
-        <Services/>
+        <Skills/>
         <Portfolio/>
         <Contact/>
         <Footer/>
