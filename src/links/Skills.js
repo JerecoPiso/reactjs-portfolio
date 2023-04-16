@@ -50,6 +50,7 @@ function Skills() {
                     <div><FontAwesomeIcon icon={brandIcons.faPython} size="4x" color='#F1F6F9' /></div>
                   
                 </div>
+            
             </div>
         </div>
 
