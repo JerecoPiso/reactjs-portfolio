@@ -6,7 +6,6 @@ function AboutMe() {
             <p className='content-title'>ABOUT ME</p>
             <div className='about-me-content'>
               <div className='about-content'>
-                  
                   <p>
                     Hey, I'm <span className='highlight'>Jereco James Piso</span>  an intermediate-level programmer with a passion for creating functional and visually appealing applications. I have a few years of experience in programming, which has allowed me to hone my skills and tackle more complex projects.
                     <br/><br/> 
