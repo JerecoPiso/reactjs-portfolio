@@ -17,7 +17,7 @@ function Profile() {
                     <li><a href='/'>Blog</a></li>
                     <li><a href='/'>Skills</a></li>
                     <li><a href='/' >Portfolio</a></li>
-                    <button className='bars'> <FontAwesomeIcon icon={solidIcons.faBars} size="3x" color='#F1F6F9' /></button>
+                    <button className='bars'> <FontAwesomeIcon icon={solidIcons.faBars} size="2x" color='#F1F6F9' /></button>
                 </div>
             </div>
 

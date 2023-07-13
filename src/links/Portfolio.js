@@ -10,26 +10,26 @@ function Portfolio(){
                 <div className=''>
                     <div>
                         <img src='./1.png' alt='' className=''/> 
-                        <div className='project-name'>PROJECT NAME</div>
+                        <div className='project-name'>TECHWORLD</div>
                     </div>
                 </div>
                 <div className=''>
                     <div>
                         <img src='./2.png' alt='' className=''/> 
-                        <div className='project-name'>PROJECT NAME</div>
+                        <div className='project-name'>CODEUNITY</div>
                     </div>
                     
                 </div>
                 <div className=''>
                     <div>
                         <img src='./3.jpg' alt='' className=''/> 
-                        <div className='project-name'>PROJECT NAME</div>
+                        <div className='project-name'>CHATME</div>
                     </div>
                 </div>
                 <div className=''>
                     <div>
                         <img src='./3.jpg' alt='' className=''/> 
-                        <div className='project-name'>PROJECT NAME</div>
+                        <div className='project-name'>DOCUMENT TRACKING SYSTEM</div>
                     </div>
                 </div>
             </div>
