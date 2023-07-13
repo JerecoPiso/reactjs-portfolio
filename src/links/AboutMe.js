@@ -2,7 +2,7 @@ import '../css/App.css';
 import '../css/Responsive.css';
 function AboutMe() {
   return (
-    <div className='about-me'>
+    <div id='about' className='about-me'>
             <p className='content-title'>ABOUT ME</p>
             <div className='about-me-content'>
               <div className='about-content'>

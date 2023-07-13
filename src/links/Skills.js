@@ -5,7 +5,7 @@ import * as brandIcons from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Skills() {
     return (
-        <div className='services'>
+        <div id='skills' className='services'>
             <p className='content-title'>SKILLS</p>
             <div className='services-content'>
                 <div className='services-type'>
@@ -34,7 +34,6 @@ function Skills() {
                     </div>
                 </div>
             </div>
-
             <div className='skills'>
                 {/* <p className='skills-title'>SKILLS</p> */}
                 <div className='my-skills'>
@@ -48,12 +47,9 @@ function Skills() {
                     <div><FontAwesomeIcon icon={brandIcons.faCss3} size="4x" color='#F1F6F9' /></div>
                     <div><FontAwesomeIcon icon={brandIcons.faJs} size="4x" color='#F1F6F9' /></div>
                     <div><FontAwesomeIcon icon={brandIcons.faPython} size="4x" color='#F1F6F9' /></div>
-                  
                 </div>
-            
             </div>
         </div>
-
         // end class app
     );
 }

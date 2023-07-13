@@ -13,18 +13,16 @@ function Profile() {
                     <p id='logo'>jerecode<FontAwesomeIcon icon={solidIcons.faLaptopCode} size="1x" color='#F1F6F9' /></p>
                 </div>
                 <div className='links'>
-                    <li><a href='/'>About</a></li>
+                    <li><a href='#about'>About</a></li>
                     <li><a href='/'>Blog</a></li>
-                    <li><a href='/'>Skills</a></li>
-                    <li><a href='/' >Portfolio</a></li>
+                    <li><a href='#skills'>Skills</a></li>
+                    <li><a href='#portfolio' >Portfolio</a></li>
                     <button className='bars'> <FontAwesomeIcon icon={solidIcons.faBars} size="2x" color='#F1F6F9' /></button>
                 </div>
             </div>
-
             {/* end class links */}
             <div className='main-display'>
                 <div className='intro-message'>
-
                     <p className='hello'>Hello,</p>
                     <p className='name'> <span>I'm</span>  Jereco James Piso</p>
                     {/* <p className='skill-offered'>Freelance Programmer</p> */}
@@ -36,7 +34,6 @@ function Profile() {
                         <FontAwesomeIcon style={{marginRight: 15}} icon={brandIcons.faTwitter} size="2x" color='#F1F6F9' />
                         <FontAwesomeIcon style={{marginRight: 15}} icon={brandIcons.faYoutube} size="2x" color='#F1F6F9' />
                     </p>
-
                 </div>
                 <div className='main-dp'>
                     {/* <img src='./dp.png' alt='' className=''/> */}
