@@ -3,7 +3,7 @@ import '../css/Responsive.css'
 
 function Contact() {
     return (
-        <div className='contact'>
+        <div id='contact' className='contact'>
             <p className='contact-section-title'>CONTACT</p>
             
             <form>

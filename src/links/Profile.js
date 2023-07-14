@@ -6,7 +6,6 @@ import * as brandIcons from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-scroll';
 function Profile() {
-
     return (
         <div className='profile'>
             <div className='header'>
@@ -15,6 +14,7 @@ function Profile() {
                 </div>
                 <div className='links'>
                     <li> <Link to="about" spy={true} smooth={true} offset={-70} duration={500} >About</Link></li>
+                    <li> <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} >Contact</Link></li>
                     <li> <Link to="about" spy={true} smooth={true} offset={-70} duration={500} >Blog</Link></li>
                     <li> <Link to="skills" spy={true} smooth={true} offset={-70} duration={500} >Skills</Link></li>
                     <li> <Link to="portfolio" spy={true} smooth={true} offset={-70} duration={500} >Projects</Link></li>
@@ -37,7 +37,7 @@ function Profile() {
                     </p>
                 </div>
                 <div className='main-dp'>
-                    {/* <img src='./dp.png' alt='' className=''/> */}
+                    {/* <img src={require("../assets/1.png")} alt='' className=''/> */}
                 </div>
             </div>
         </div>

@@ -16,7 +16,6 @@ function Skills() {
                     setTimeout(() => {
                         section.classList.remove('project-hide');
                         section.classList.add('project-show');
-                      
                     }, 500);
                 } else {
                     section.classList.add('project-hide');
@@ -73,6 +72,7 @@ function Skills() {
                     <div><FontAwesomeIcon icon={brandIcons.faJs} size="4x" color='#F1F6F9' /></div>
                     <div><FontAwesomeIcon icon={brandIcons.faPython} size="4x" color='#F1F6F9' /></div>
                 </div>
+              
             </div>
         </div>
         // end class app

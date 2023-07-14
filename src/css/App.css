@@ -224,6 +224,24 @@ input::placeholder, textarea::placeholder {
   transform: translateX(100%);
   /* transition: opacity 0.5s ease, transform 1s ease; */
 }
+.project-show-right{
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.5s ease, transform 1s ease;
+}
+.project-hide-right{
+  opacity: 0;
+  transform: translateX(100%);
+}
+.project-show-left{
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.5s ease, transform 1s ease;
+}
+.project-hide-left{
+  opacity: 0;
+  transform: translateX(-100%);
+}
 .projects .project-card {
   flex: 1;
   background: #F1F6F9;
