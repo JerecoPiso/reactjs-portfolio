@@ -5,20 +5,43 @@ import * as solidIcons from '@fortawesome/free-solid-svg-icons';
 import * as brandIcons from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-scroll';
+import { useEffect } from 'react';
 function Profile() {
+    useEffect(() => {
+        const handleResize = () => {
+          if(window.innerWidth > 768){
+            const hiddenDiv = document.querySelector('.links');
+            hiddenDiv.classList.toggle("fade-toggle")
+          }
+        };
+        window.addEventListener('resize', handleResize);
+        return () => {
+          window.removeEventListener('resize', handleResize);
+        };
+      }, []);
+    const ToggleNav = () => {
+        const hiddenDiv = document.querySelector('.links');
+        const computedStyle = window.getComputedStyle(hiddenDiv);
+        const isHidden = computedStyle.getPropertyValue('display') === 'none';
+        if (isHidden) {
+            hiddenDiv.classList.toggle("fade-toggle")
+        } else {
+            hiddenDiv.classList.toggle("fade-toggle")
+        }
+    }
     return (
         <div className='profile'>
+            <button id='bars' className='bars' onClick={() => ToggleNav()}> <FontAwesomeIcon icon={solidIcons.faBars} size="2x" color='#F1F6F9' /></button>
             <div className='header'>
                 <div>
                     <p id='logo'>jerecode<FontAwesomeIcon icon={solidIcons.faLaptopCode} size="1x" color='#F1F6F9' /></p>
                 </div>
-                <div className='links'>
+                <div id="links" className='links'>
                     <li> <Link to="about" spy={true} smooth={true} offset={-70} duration={500} >About</Link></li>
                     <li> <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} >Contact</Link></li>
-                    <li> <Link to="about" spy={true} smooth={true} offset={-70} duration={500} >Blog</Link></li>
+                    {/* <li> <Link to="about" spy={true} smooth={true} offset={-70} duration={500} >Blog</Link></li> */}
                     <li> <Link to="skills" spy={true} smooth={true} offset={-70} duration={500} >Skills</Link></li>
                     <li> <Link to="portfolio" spy={true} smooth={true} offset={-70} duration={500} >Projects</Link></li>
-                    <button className='bars'> <FontAwesomeIcon icon={solidIcons.faBars} size="2x" color='#F1F6F9' /></button>
                 </div>
             </div>
             {/* end class links */}
@@ -28,7 +51,7 @@ function Profile() {
                     <p className='name'> <span>I'm</span>  Jereco James Piso</p>
                     {/* <p className='skill-offered'>Freelance Programmer</p> */}
                     <p className='slogan'>"Your vision, my code - let's make it happen."</p>
-                    <button className='get-in-touch'>GET IN TOUCH</button>
+                    <button id='get-in-touch'>GET IN TOUCH</button>
                     <p className='socials'>
                         <FontAwesomeIcon style={{ marginRight: 15 }} icon={brandIcons.faGithub} size="2x" color='#F1F6F9' />
                         <FontAwesomeIcon style={{ marginRight: 15 }} icon={brandIcons.faFacebook} size="2x" color='#F1F6F9' />

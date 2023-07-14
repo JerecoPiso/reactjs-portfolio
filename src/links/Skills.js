@@ -14,12 +14,12 @@ function Skills() {
 
                 if (sectionPosition < windowHeight * 0.95) {
                     setTimeout(() => {
-                        section.classList.remove('project-hide');
-                        section.classList.add('project-show');
-                    }, 500);
+                        section.classList.remove('skill-hide');
+                        section.classList.add('skill-show');
+                    }, 200);
                 } else {
-                    section.classList.add('project-hide');
-                    section.classList.remove('project-show');
+                    section.classList.add('skill-hide');
+                    section.classList.remove('skill-show');
                 }
             });
         };

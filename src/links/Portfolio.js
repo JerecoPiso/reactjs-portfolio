@@ -2,22 +2,21 @@ import '../css/App.css'
 import '../css/Responsive.css'
 import { useEffect } from 'react';
 function Portfolio() {
+   
     useEffect(() => {
         const handleScroll = () => {
             const right = document.querySelectorAll('.projects-right');
             right.forEach((section) => {
                 const sectionPosition = section.getBoundingClientRect().top;
                 const windowHeight = window.innerHeight;
-
                 if (sectionPosition < windowHeight * 0.95) {
                     setTimeout(() => {
                         section.classList.remove('project-hide-right');
                         section.classList.add('project-show-right');
-                      
-                    }, 500);
+                    }, 300);
                 } else {
                     section.classList.add('project-hide-right');
-                    section.classList.remove('project-show-right');
+                    // section.classList.remove('project-show-right');
                 }
             });
             const left = document.querySelectorAll('.projects-left');
@@ -29,11 +28,11 @@ function Portfolio() {
                     setTimeout(() => {
                         section.classList.remove('project-hide-left');
                         section.classList.add('project-show-left');
-                      
-                    }, 500);
+
+                    }, 300);
                 } else {
                     section.classList.add('project-hide-left');
-                    section.classList.remove('project-show-left ');
+                    // section.classList.remove('project-show-left ');
                 }
             });
 
@@ -43,6 +42,7 @@ function Portfolio() {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
+
     return (
 
         <div id='portfolio' className='portfolio'>

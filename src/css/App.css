@@ -22,6 +22,10 @@
 .bars {
   background: transparent;
   border: none;
+  position: fixed;
+  z-index: 999;
+  right: 0.5em;
+  top: 1.3em;
 }
 /* C */
 .contact {
@@ -57,6 +61,14 @@
   font-size: 0.8em;
   color: #F1F6F9;
 }
+.fade-toggle {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.fade-toggle.show {
+  opacity: 1;
+}
 .footer{
   height: auto;
   background: #14274E;
@@ -70,7 +82,7 @@ form {
   margin: auto;
 }
 /* G */
-.get-in-touch {
+#get-in-touch {
   padding: 0.5em 2em 0.5em 2em;
   border: none;
   border-radius: 0.1em;
@@ -98,7 +110,7 @@ form {
   vertical-align: middle;
   margin-top: 0;
   margin-bottom: 0.1em;
-  margin-left: 1.2em;
+  /* margin-left: 1.2em; */
   width: auto;
   height: 68px;
   font-size: 2em;
@@ -208,22 +220,15 @@ input::placeholder, textarea::placeholder {
   height: auto;
   background: #14274E;
   padding: 4em 1em 4em;
+  overflow: hidden;
+  max-width: 100%;
 }
 .projects {
   display: flex;
   padding: 0 1.9em 0 1.9em;
   flex-wrap: wrap;
 }
-.project-show{
-  opacity: 1;
-  transform: translateX(0);
-  transition: opacity 0.5s ease, transform 1s ease;
-}
-.project-hide{
-  opacity: 0;
-  transform: translateX(100%);
-  /* transition: opacity 0.5s ease, transform 1s ease; */
-}
+
 .project-show-right{
   opacity: 1;
   transform: translateX(0);
@@ -309,6 +314,8 @@ input::placeholder, textarea::placeholder {
   height: auto;
   background: #14274E;
   padding: 4em 1em 4em;
+  overflow: hidden;
+  max-width: 100%;
 }
 .services-content {
   display: flex;
@@ -334,6 +341,16 @@ input::placeholder, textarea::placeholder {
   text-transform: uppercase;
   color: #14274E;
 }
+.skill-show{
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.5s ease, transform 1s ease;
+}
+.skill-hide{
+  opacity: 0;
+  transform: translateX(100%);
+  /* transition: opacity 0.5s ease, transform 1s ease; */
+}
 .socials{
   margin-top: 2em;
 }
@@ -350,6 +367,7 @@ input::placeholder, textarea::placeholder {
 }
 .skills {
   margin: 4em 5em 0 5em;
+
 }
 .skills-title {
   color: #F1F6F9;

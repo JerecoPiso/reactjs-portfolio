@@ -8,9 +8,9 @@ function Contact() {
             
             <form>
                 <label>Your Name</label>
-                <input type='text' placeholder='Enter your name' required />
+                <input type='text' className='bg-transparent' placeholder='Enter your name' required />
                 <label>Your Email</label>
-                <input type='email' placeholder='Enter your email' required />
+                <input type='email' className='bg-transparent' placeholder='Enter your email' required />
                 <label>Message</label>
                 <textarea cols={100} placeholder='Enter your message here' required />
                 <button className='send'>Send</button>
