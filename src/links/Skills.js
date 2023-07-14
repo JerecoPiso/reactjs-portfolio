@@ -3,7 +3,32 @@ import '../css/Responsive.css';
 import * as solidIcons from '@fortawesome/free-solid-svg-icons';
 import * as brandIcons from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useEffect } from 'react';
 function Skills() {
+    useEffect(() => {
+        const handleScroll = () => {
+            const sections = document.querySelectorAll('.services-content');
+            sections.forEach((section) => {
+                const sectionPosition = section.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+
+                if (sectionPosition < windowHeight * 0.95) {
+                    setTimeout(() => {
+                        section.classList.remove('project-hide');
+                        section.classList.add('project-show');
+                      
+                    }, 500);
+                } else {
+                    section.classList.add('project-hide');
+                    section.classList.remove('project-show');
+                }
+            });
+        };
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
     return (
         <div id='skills' className='services'>
             <p className='content-title'>SKILLS</p>

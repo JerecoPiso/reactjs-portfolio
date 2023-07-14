@@ -1,4 +1,5 @@
 /* A */
+
 .about-me {
   background: #394867;
   height: auto;
@@ -143,6 +144,7 @@ label {
 .links li:hover a {
   background-color: #F1F6F9;
   color: #14274E;
+  cursor: pointer;
   border-radius: 0.1em;
 }
 input {
@@ -212,29 +214,38 @@ input::placeholder, textarea::placeholder {
   padding: 0 1.9em 0 1.9em;
   flex-wrap: wrap;
 }
-
-.projects div {
+.project-show{
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.5s ease, transform 1s ease;
+}
+.project-hide{
+  opacity: 0;
+  transform: translateX(100%);
+  /* transition: opacity 0.5s ease, transform 1s ease; */
+}
+.projects .project-card {
   flex: 1;
   background: #F1F6F9;
   box-sizing: border-box;
   position: relative;
 }
-.projects div div {
+.projects .project-card div {
   overflow: hidden;
   position: relative;
   height: 100%;
   max-height: 280px;
 }
-.projects div img {
+.projects .project-card div img {
   width: 100%;
   height: 280px;
   position: relative;
 }
-.projects div img:hover {
+.projects .project-card div img:hover {
   transform: scale(1.1);
   transition: 1s;
 }
-.projects div .project-name {
+.projects .project-card div .project-name {
   display: none;
 }
 .projects div:hover .project-name {
