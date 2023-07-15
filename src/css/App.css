@@ -16,7 +16,7 @@
 .about-content p {
   color: #F1F6F9;
   vertical-align: middle;
-  text-align: center;
+  /* text-align: center; */
 }
 /* B */
 .bars {
@@ -63,11 +63,7 @@
 }
 .fade-toggle {
   opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.fade-toggle.show {
-  opacity: 1;
+  transition: opacity 0.5s ease;
 }
 .footer{
   height: auto;
@@ -178,10 +174,10 @@ input::placeholder, textarea::placeholder {
   font-size: 0.8em;
 }
 /* M */
-.main-display {
+/* .main-display {
   padding: 5em 1em;
 
-}
+} */
 .main-display div {
   flex: 1;
 }
@@ -195,6 +191,9 @@ input::placeholder, textarea::placeholder {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+.my-skills div{
+  margin: 1em 1em 0 1em;
 }
 .mt-0 {
   margin-top: 0;

@@ -7,18 +7,35 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-scroll';
 import { useEffect } from 'react';
 function Profile() {
+
     useEffect(() => {
-        const handleResize = () => {
-          if(window.innerWidth > 768){
+        if (window.innerWidth < 768) {
             const hiddenDiv = document.querySelector('.links');
-            hiddenDiv.classList.toggle("fade-toggle")
-          }
+            let computedStyle = window.getComputedStyle(hiddenDiv);
+            const isHidden = computedStyle.getPropertyValue('opacity') === '0';
+            if (!isHidden) {
+                hiddenDiv.classList.add("fade-toggle")
+            }
+        }
+        const handleResize = () => {
+            const hiddenDiv = document.querySelector('.links');
+            let computedStyle = window.getComputedStyle(hiddenDiv);
+            const isHidden = computedStyle.getPropertyValue('opacity') === '0';
+            if (window.innerWidth > 768) {
+                if (isHidden) {
+                    hiddenDiv.classList.toggle("fade-toggle")
+                }
+            } else {
+                if (!isHidden) {
+                    hiddenDiv.classList.toggle("fade-toggle")
+                }
+            }
         };
         window.addEventListener('resize', handleResize);
         return () => {
-          window.removeEventListener('resize', handleResize);
+            window.removeEventListener('resize', handleResize);
         };
-      }, []);
+    }, []);
     const ToggleNav = () => {
         const hiddenDiv = document.querySelector('.links');
         const computedStyle = window.getComputedStyle(hiddenDiv);

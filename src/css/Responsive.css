@@ -2,212 +2,296 @@
     .about-me {
         padding: 4em 2em 4em 2em;
     }
-    .about-me-content{
+
+    .about-me-content {
         flex-direction: column;
     }
-    .bars{
+    .bars {
         display: block;
     }
-    form{
+
+    form {
         width: 100%;
     }
-    #logo{
-        margin-left: 0.3em;
+
+    #logo {
+        margin-left: 0.65em;
     }
-    .links{
+
+    .links {
         display: block;
-        background-color: #14274E;;
+        background-color: #14274E;
+        ;
         position: fixed;
         left: 0;
         width: 100%;
         margin-top: 4em;
         padding: 0;
     }
-     .links li a{
+
+    .links li a {
         display: block;
         width: 100%;
-        padding: 0.5em 1em 0.5em;
-      
+        padding: 0.5em 1em 0.5em 1.45em;
     }
-   
-    .main-display{
+
+    .main-display {
+        padding: 2em 0;
         display: flex;
         flex-direction: column;
-    
+
     }
-    .main-display div{
+
+    .main-display div {
         margin: 1em;
         padding: 0 1em 1em 1em;
     }
-    .services-content, .projects,   .contact-section{
-      
+
+    .services-content,
+    .projects,
+    .contact-section {
+
         flex-direction: column;
-   
+
     }
 }
-@media only screen and (min-width: 576px) and (max-width: 768px)  {
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
     .about-me {
         padding: 4em 3em 4em 3em;
     }
-    .about-me-content{
+
+    .about-me-content {
         flex-direction: column;
     }
-    .bars{
+    .bars {
         display: block;
     }
-    form{
+
+    form {
         width: 100%;
     }
-    #logo{
-        margin-left: 0.3em;
+
+    #logo {
+        margin-left: 0.65em;
     }
-    .links{
+
+    .links {
         display: block;
-        background-color: #14274E;;
+        background-color: #14274E;
+        ;
         position: absolute;
         left: 0;
         width: 100%;
         margin-top: 4em;
         padding: 0;
     }
-     .links li a{
+
+    .links li a {
         display: block;
         width: 100%;
-        padding: 0.5em 1em 0.5em;
+        padding: 0.5em 1em 0.5em 1.45em;
     }
-    .main-display{
+
+    .main-display {
+        padding: 2em 0;
         display: flex;
         flex-direction: column;
     }
-    .main-display div{
+
+    .main-display div {
         margin: 1em;
         padding: 0 1em 1em 1em;
     }
-    .services-content, .projectsm,   .contact-section{
+
+    .services-content,
+    .projectsm,
+    .contact-section {
         flex-direction: column;
     }
 }
+
 @media only screen and (min-width: 768px) {
     .about-me {
         padding: 4em 3em 4em 3em;
     }
-    .about-me-content{
+
+    .about-me-content {
         flex-direction: row;
     }
-    .bars{
+
+    .about-content p {
+
+        text-align: center;
+    }
+
+    .bars {
         display: none;
     }
-    form{
+
+    form {
         width: 100%;
     }
-    #logo{
+
+    #logo {
         margin-left: 1.2em;
     }
+
     /* .links li{
         display: none;
     } */
-    .main-display{
+    .main-display {
+        padding: 5em 1em;
         display: flex;
         flex-direction: column;
     }
-    .main-display div{
+
+    .main-display div {
         margin: 1em;
         padding: 0 1em 1em 1em;
     }
-    .services-content, .projects,   .contact-section{
+
+    .services-content,
+    .projects,
+    .contact-section {
         flex-direction: column;
     }
 }
+
 @media only screen and (min-width: 992px) {
     .about-me {
         padding: 4em 5em 4em 5em;
     }
-    .about-me-content{
+
+    .about-me-content {
         flex-direction: row;
     }
-    .bars{
+    .about-content p {
+
+        text-align: center;
+    }
+    .bars {
         display: none;
     }
-    form{
+
+    form {
         width: 80%;
     }
-    #logo{
+
+    #logo {
         margin-left: 1.2em;
     }
-    .links li{
+
+    .links li {
         display: block;
     }
-    .main-display{
+
+    .main-display {
+        padding: 5em 1em;
         display: flex;
         flex-direction: column;
     }
-    .main-display div{
+
+    .main-display div {
         margin: 1em;
         padding: 0 1em 1em 1em;
     }
-    .services-content, .projects,   .contact-section{
+
+    .services-content,
+    .projects,
+    .contact-section {
         flex-direction: row;
     }
 }
+
 @media only screen and (min-width: 1200px) {
     .about-me {
         padding: 4em 10em 4em 10em;
     }
-    .about-me-content{
+
+    .about-me-content {
         flex-direction: row;
     }
-    .bars{
+    .about-content p {
+
+        text-align: center;
+    }
+    .bars {
         display: none;
     }
-    form{
+
+    form {
         width: 60%;
     }
-    #logo{
+
+    #logo {
         margin-left: 1.2em;
     }
-    .links li{
+
+    .links li {
         display: block;
     }
-    .main-display{
+
+    .main-display {
         display: flex;
         flex-direction: row;
+        padding: 5em 1em;
     }
-    .main-display div{
+
+    .main-display div {
         margin: 1em;
         padding: 3em 1em 1em 1em;
     }
-    .services-content, .projects,  .contact-section{
+
+    .services-content,
+    .projects,
+    .contact-section {
         flex-direction: row;
     }
 }
+
 @media only screen and (min-width: 1400px) {
     .about-me {
         padding: 4em 10em 4em 10em;
     }
-    .about-me-content{
+
+    .about-me-content {
         flex-direction: row;
     }
-    .bars{
+    .about-content p {
+
+        text-align: center;
+    }
+    .bars {
         display: none;
     }
-    form{
+
+    form {
         width: 60%;
     }
-    #logo{
+
+    #logo {
         margin-left: 1.2em;
     }
-    .links li{
+
+    .links li {
         display: block;
     }
-    .main-display{
+
+    .main-display {
         display: flex;
+        padding: 5em 1em;
         flex-direction: row;
     }
-    .main-display div{
+
+    .main-display div {
         margin: 1em;
         padding: 3em 1em 1em 1em;
     }
-    .services-content, .projects,   .contact-section{
+
+    .services-content,
+    .projects,
+    .contact-section {
         flex-direction: row;
     }
 }
