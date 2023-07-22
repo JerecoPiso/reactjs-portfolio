@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/reactjs-portfolio/static/css/main.1ea4d8d5.css",
-    "main.js": "/reactjs-portfolio/static/js/main.f3b856e1.js",
+    "main.js": "/reactjs-portfolio/static/js/main.89f8a297.js",
     "static/js/787.1ed0c42c.chunk.js": "/reactjs-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/realstate.png": "/reactjs-portfolio/static/media/realstate.d0039280c8adef274ebe.png",
+    "static/media/techworld.png": "/reactjs-portfolio/static/media/techworld.c178b0d098c71c0440a5.png",
     "static/media/1.png": "/reactjs-portfolio/static/media/1.f5c248c3c80409655b13.png",
     "static/media/codeunity.png": "/reactjs-portfolio/static/media/codeunity.9739628d4c92b3afd811.png",
     "static/media/2.png": "/reactjs-portfolio/static/media/2.e8d6f24e80cdacd7f875.png",
     "static/media/3.jpg": "/reactjs-portfolio/static/media/3.c14e8a2755b8e8dc12d7.jpg",
     "index.html": "/reactjs-portfolio/index.html",
     "main.1ea4d8d5.css.map": "/reactjs-portfolio/static/css/main.1ea4d8d5.css.map",
-    "main.f3b856e1.js.map": "/reactjs-portfolio/static/js/main.f3b856e1.js.map",
+    "main.89f8a297.js.map": "/reactjs-portfolio/static/js/main.89f8a297.js.map",
     "787.1ed0c42c.chunk.js.map": "/reactjs-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ea4d8d5.css",
-    "static/js/main.f3b856e1.js"
+    "static/js/main.89f8a297.js"
   ]
 }
