@@ -51,7 +51,7 @@ function Portfolio() {
             <div className='projects projects-right'>
                 <div className='project-card'>
                     <div>
-                        <img src={require('../assets/1.png')} alt='' className='' />
+                        <img src={require('../assets/techworld.png')} alt='' className='' />
                         <div className='project-name'>TECHWORLD</div>
                     </div>
                 </div>
@@ -63,8 +63,8 @@ function Portfolio() {
                 </div>
                 <div className='project-card'>
                     <div>
-                        <img src={require('../assets/3.jpg')} alt='' className='' />
-                        <div className='project-name'>CHATME</div>
+                        <img src={require('../assets/realstate.png')} alt='' className='' />
+                        <div className='project-name'>REALSTATE</div>
                     </div>
                 </div>
                 <div className='project-card'>
