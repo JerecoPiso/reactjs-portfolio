@@ -1,6 +1,6 @@
 @media only screen and (max-width: 576px) {
     .about-me {
-        padding: 4em 2em 4em 2em;
+        padding: 1em 2em 4em 2em;
     }
 
     .about-me-content {
@@ -21,7 +21,6 @@
     .links {
         display: block;
         background-color: #14274E;
-        ;
         position: fixed;
         left: 0;
         width: 100%;
