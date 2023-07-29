@@ -69,34 +69,38 @@ function Portfolio() {
                 </div>
                 <div className='project-card'>
                     <div>
-                        <img src={require('../assets/1.png')} alt='' className='' />
-                        <div className='project-name'>DOCUMENT TRACKING SYSTEM</div>
+                        <img src={require('../assets/old_portfolio.png')} alt='' className='' />
+                        <div className='project-name'>PREVIOUS PORTFOLIO
+                        </div>
+                       
                     </div>
                 </div>
             </div>
             <div className='projects projects-left'>
-                <div className='project-card'>
+            <div className='project-card'>
                     <div>
-                        <img src={require('../assets/2.png')} alt='' className='' />
-                        <div className='project-name'>PROJECT NAME</div>
+                        <img src={require('../assets/techworld.png')} alt='' className='' />
+                        <div className='project-name'>TECHWORLD</div>
                     </div>
                 </div>
                 <div className='project-card'>
                     <div>
-                        <img src={require('../assets/1.png')} alt='' className='' />
-                        <div className='project-name'>PROJECT NAME</div>
+                        <img src={require('../assets/codeunity.png')} alt='' className='' />
+                        <div className='project-name'>CODEUNITY</div>
                     </div>
                 </div>
                 <div className='project-card'>
                     <div>
-                        <img src={require('../assets/3.jpg')} alt='' className='' />
-                        <div className='project-name'>PROJECT NAME</div>
+                        <img src={require('../assets/realstate.png')} alt='' className='' />
+                        <div className='project-name'>REALSTATE</div>
                     </div>
                 </div>
                 <div className='project-card'>
                     <div>
-                        <img src={require('../assets/3.jpg')} alt='' className='' />
-                        <div className='project-name'>PROJECT NAME</div>
+                        <img src={require('../assets/old_portfolio.png')} alt='' className='' />
+                        <div className='project-name'>PREVIOUS PORTFOLIO
+                        </div>
+                       
                     </div>
                 </div>
             </div>

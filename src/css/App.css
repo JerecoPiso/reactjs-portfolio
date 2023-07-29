@@ -7,7 +7,7 @@
 }
 .about-me-content {
   display: flex;
-  padding: 1em;
+  /* padding: 1em; */
 }
 .about-me-content .about-content {
   margin: 0 1em 0 1em;
