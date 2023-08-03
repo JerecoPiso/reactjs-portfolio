@@ -77,7 +77,7 @@ function Profile() {
                     </p>
                 </div>
                 <div className='main-dp'>
-                    {/* <img src={require("../assets/1.png")} alt='' className=''/> */}
+                    <img src={require("../assets/picture-logo-removebg-preview.png")} alt='' className=''/>
                 </div>
             </div>
         </div>
