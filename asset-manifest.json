@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/reactjs-portfolio/static/css/main.5429909f.css",
-    "main.js": "/reactjs-portfolio/static/js/main.c2c4b6d1.js",
+    "main.css": "/reactjs-portfolio/static/css/main.d1e6d06b.css",
+    "main.js": "/reactjs-portfolio/static/js/main.75deb5ae.js",
     "static/js/787.1ed0c42c.chunk.js": "/reactjs-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/old_portfolio.png": "/reactjs-portfolio/static/media/old_portfolio.bca499790547e8f672bd.png",
     "static/media/realstate.png": "/reactjs-portfolio/static/media/realstate.d0039280c8adef274ebe.png",
     "static/media/techworld.png": "/reactjs-portfolio/static/media/techworld.c178b0d098c71c0440a5.png",
     "static/media/codeunity.png": "/reactjs-portfolio/static/media/codeunity.9739628d4c92b3afd811.png",
-    "static/media/picture-logo-removebg-preview.png": "/reactjs-portfolio/static/media/picture-logo-removebg-preview.f8179890e35531f0cacf.png",
+    "static/media/picture-logo.png": "/reactjs-portfolio/static/media/picture-logo.dca44af4d04cbd5110e9.png",
     "index.html": "/reactjs-portfolio/index.html",
-    "main.5429909f.css.map": "/reactjs-portfolio/static/css/main.5429909f.css.map",
-    "main.c2c4b6d1.js.map": "/reactjs-portfolio/static/js/main.c2c4b6d1.js.map",
+    "main.d1e6d06b.css.map": "/reactjs-portfolio/static/css/main.d1e6d06b.css.map",
+    "main.75deb5ae.js.map": "/reactjs-portfolio/static/js/main.75deb5ae.js.map",
     "787.1ed0c42c.chunk.js.map": "/reactjs-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5429909f.css",
-    "static/js/main.c2c4b6d1.js"
+    "static/css/main.d1e6d06b.css",
+    "static/js/main.75deb5ae.js"
   ]
 }
