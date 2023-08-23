@@ -34,28 +34,26 @@
   background: #394867;
   padding: 2em 1em 4em;
 }
-.contact-section-title{
-  color: #F1F6F9;
-  letter-spacing: 1px;
-  text-align: center;
-  font-family: "Poppins";
-  font-size: 2.2em;
-  border-top: 3px solid #F1F6F9;
-  width: 200px;
-  margin: 0 auto 1.5em;
-  display: block;
+#contact-section-title{
+  margin-top: 0.7em;
 }
 .content-title {
-  border-top: 3px solid #F1F6F9;
-  width: 200px;
-  padding-top: 0.2em;
-  /* margin: 0 0 0.5em 1em; */
-  margin: auto auto 1em auto;
-  text-align: center;
-  display: block;
-  color: #F1F6F9;
+  margin-top: -0.8em;
   font-size: 2em;
-  line-height: 36px;
+  color: #F1F6F9;
+  position: relative;
+  text-align: center;
+  padding-bottom: 0.3em;
+}
+.content-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  border-radius: 50em;
+  width: 35px; /* Adjust the width of the short line as needed */
+  border-bottom: 4px solid #F1F6F9; /* Adjust the line color and style as needed */
+  transform: translateX(-50%);
 }
 .copyright{
   text-align: center;
@@ -118,16 +116,20 @@ form {
   color: #F1F6F9;
 }
 .hello {
-  font-size: 2em;
+  font-size: 2.5em;
   margin-bottom: 0;
   color: #9BA4B4;
 }
 .highlight{
-  background-color: #F1F6F9;
-  font-weight: 900;
+  /* background-color: #F1F6F9; */
+  /* font-weight: 900; */
+  font-size: 1.2;
+  columns: white;
   padding: 0 0.5em 0 0.5em;
   border-radius: 0.1em;
-  color: #14274E;
+  /* color: #14274E; */
+  border-bottom: 2px solid #ffff;
+  border-radius: 25em;
 }
 /* L */
 label {
@@ -182,13 +184,14 @@ input::placeholder, textarea::placeholder {
 .main-display div {
   flex: 1;
 }
+
 .main-dp img {
-  /* position: absolute; */
-  /* bottom: 0; */
-  margin-top: -4em;
-  width: 800px;
+  margin-right: -3em;
+  margin-top: -2em;
+  /* width: 600px; */
   height: 500px;
-  height: 80%;
+  width: 100%;
+  /* position: absolute; */
 }
 .my-skills {
   display: flex;
@@ -204,7 +207,7 @@ input::placeholder, textarea::placeholder {
 }
 /* N */
 .name {
-  font-size: 2.5em;
+  font-size: 3em;
   color: #F1F6F9;
   margin-top: 0.1em;
   margin-bottom: 0;
@@ -294,7 +297,8 @@ input::placeholder, textarea::placeholder {
 }
 .profile {
   background: #14274E;
-  height: 80vh;
+  min-height: 80vh;
+  max-height: 150vh;
 }
 /* S */
 .send {
@@ -388,10 +392,45 @@ input::placeholder, textarea::placeholder {
   font-weight: 300;
   color: #9BA4B4;
   line-height: 30px;
-  font-size: 1.5em;
+  font-size: 2em;
   font-style: normal;
 }
 textarea {
   height: 150px;
   resize: none;
+}
+
+
+
+/* animations */
+/* Apply the waving animation to the image */
+@keyframes waving {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-5px) rotate(-1deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+.waving-image {
+  animation: waving 2s infinite; /* Adjust the animation duration as needed */
+}
+/* Apply the typing animation to the text content */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.typing-text-content {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 4s steps(50, end); /* Adjust the animation duration and steps as needed */
+ 
 }

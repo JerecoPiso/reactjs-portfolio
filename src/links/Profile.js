@@ -61,12 +61,28 @@ function Profile() {
                     <li> <Link to="portfolio" spy={true} smooth={true} offset={-70} duration={500} >Projects</Link></li>
                 </div>
             </div>
-            {/* end class links */}
             <div className='main-display'>
+                <div className=''>
+                    <p className='hello'>Hello,</p>
+                    <p className='name'> <span>I'm</span>  Jereco James Piso</p>
+                    <p className='slogan'>"Your vision, my code - let's make it happen."</p>
+                    <button id='get-in-touch'>GET IN TOUCH</button>
+                    <p className='socials'>
+                        <FontAwesomeIcon style={{ marginRight: 15 }} icon={brandIcons.faGithub} size="2x" color='#F1F6F9' />
+                        <FontAwesomeIcon style={{ marginRight: 15 }} icon={brandIcons.faFacebook} size="2x" color='#F1F6F9' />
+                        <FontAwesomeIcon style={{ marginRight: 15 }} icon={brandIcons.faTwitter} size="2x" color='#F1F6F9' />
+                        <FontAwesomeIcon style={{ marginRight: 15 }} icon={brandIcons.faYoutube} size="2x" color='#F1F6F9' />
+                    </p>
+                </div>
+                {/* <div className='main-dp'>
+                    <img src={require("../assets/dp (1).png")} alt='' className='rounded-full'/>
+                </div> */}
+            </div>
+            {/* end class links */}
+            {/* <div className='main-display'>
                 <div className='intro-message'>
                     <p className='hello'>Hello,</p>
                     <p className='name'> <span>I'm</span>  Jereco James Piso</p>
-                    {/* <p className='skill-offered'>Freelance Programmer</p> */}
                     <p className='slogan'>"Your vision, my code - let's make it happen."</p>
                     <button id='get-in-touch'>GET IN TOUCH</button>
                     <p className='socials'>
@@ -77,9 +93,9 @@ function Profile() {
                     </p>
                 </div>
                 <div className='main-dp'>
-                    <img src={require("../assets/picture-logo-removebg-preview.png")} alt='' className=''/>
+                    <img src={require("../assets/picture-logo-removebg.png")} alt='' className=''/>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

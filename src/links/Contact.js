@@ -4,7 +4,7 @@ import '../css/Responsive.css'
 function Contact() {
     return (
         <div id='contact' className='contact'>
-            <p className='contact-section-title'>CONTACT</p>
+            <p className='content-title' id='contact-section-title'>CONTACT</p>
             
             <form>
                 <label>Your Name</label>
