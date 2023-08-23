@@ -116,7 +116,7 @@ form {
   color: #F1F6F9;
 }
 .hello {
-  font-size: 2.5em;
+  font-size: 1.8em;
   margin-bottom: 0;
   color: #9BA4B4;
 }
@@ -189,9 +189,8 @@ input::placeholder, textarea::placeholder {
   margin-right: -3em;
   margin-top: -2em;
   /* width: 600px; */
-  height: 500px;
-  width: 100%;
-  /* position: absolute; */
+  height: 80%;
+  position: absolute;
 }
 .my-skills {
   display: flex;
@@ -207,7 +206,7 @@ input::placeholder, textarea::placeholder {
 }
 /* N */
 .name {
-  font-size: 3em;
+  font-size: 2.5em;
   color: #F1F6F9;
   margin-top: 0.1em;
   margin-bottom: 0;
@@ -392,7 +391,7 @@ input::placeholder, textarea::placeholder {
   font-weight: 300;
   color: #9BA4B4;
   line-height: 30px;
-  font-size: 2em;
+  font-size: 1.5em;
   font-style: normal;
 }
 textarea {
